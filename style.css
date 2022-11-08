@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin: -19px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.btn1 {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 1.5em;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: -30px;
+}
+
+input.btn1{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.btn{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 1.5em;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: -30px;
+}
+
+input.btn{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/*
+  .box {
+    position: absolute;
+  }
+  
+  .box#one {
+    width: 90px;
+    height: 60px;
+    background: red;
+    
+    top: 20px;
+    left: 60px;
+  }
+  
+  .box#two {
+    width: 90px;
+    height: 100px;
+    background: blue;
+    
+    top: 50px;
+    right: 100px;
+  }
+  
+  .box#three {
+    width: 67px;
+    height: 76px;
+    background: purple;
+    
+    bottom: 100px;
+    left: 278px;
+  }
+  
+  .box#four {
+    width: 150px;
+    height: 160px;
+    background: yellow;
+    
+    top: 203px;
+    left: 100px;
+  }
+  
+  .box#five {
+    width: 70px;
+    height: 50px;
+    background: orange;
+    
+    top: 110px;
+    left: 45px;
+  }
+  */
+
+  .box {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.hide{
+    display: none;
+}
